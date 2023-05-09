@@ -1,0 +1,12 @@
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\bin\Debug\net7.0\eventos.Models.deps.json
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\bin\Debug\net7.0\eventos.Models.dll
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\bin\Debug\net7.0\eventos.Models.pdb
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.csproj.AssemblyReference.cache
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.AssemblyInfoInputs.cache
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.AssemblyInfo.cs
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.csproj.CoreCompileInputs.cache
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.dll
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\refint\eventos.Models.dll
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\eventos.Models.pdb
+C:\Users\Meta Code\Desktop\Curso\app\eventos\eventos.Models\obj\Debug\net7.0\ref\eventos.Models.dll
