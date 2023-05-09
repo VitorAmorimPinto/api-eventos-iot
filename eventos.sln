@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventos.Models", "eventos.Models\eventos.Models.csproj", "{0BA7A516-C9E6-4E78-8022-7189839344CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventos.API", "eventos.API\eventos.API.csproj", "{7A6AE406-13D3-4676-9FB7-3E66A4863CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BA7A516-C9E6-4E78-8022-7189839344CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA7A516-C9E6-4E78-8022-7189839344CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA7A516-C9E6-4E78-8022-7189839344CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA7A516-C9E6-4E78-8022-7189839344CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6AE406-13D3-4676-9FB7-3E66A4863CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6AE406-13D3-4676-9FB7-3E66A4863CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6AE406-13D3-4676-9FB7-3E66A4863CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6AE406-13D3-4676-9FB7-3E66A4863CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C4012C8-096A-42B9-8F49-21944AFFB2E2}
+	EndGlobalSection
+EndGlobal
