@@ -1,0 +1,34 @@
+# arquivos gerados pelo Visual Studio
+.vs/
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.sdf
+*.vcxproj.user
+*.vcxproj.*.user
+*.vcxproj.*.users
+
+# diretórios de saída
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/

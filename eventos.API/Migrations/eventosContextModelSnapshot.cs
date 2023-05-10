@@ -42,7 +42,7 @@ namespace eventos.API.Migrations
                     b.Property<string>("Matricula")
                         .HasColumnType("text");
 
-                    b.Property<int>("CursoId")
+                    b.Property<int?>("CursoId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Nome")
@@ -115,9 +115,7 @@ namespace eventos.API.Migrations
                 {
                     b.HasOne("eventos.Models.Curso", "Curso")
                         .WithMany("Alunos")
-                        .HasForeignKey("CursoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CursoId");
 
                     b.Navigation("Curso");
                 });

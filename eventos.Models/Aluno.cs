@@ -10,9 +10,9 @@ namespace eventos.Models
     public class Aluno
     {
         [Key]
-        public String Matricula { get; set; }
-        public String Nome { get; set; }
-        public Curso  Curso { get; set; }
-        public ICollection<Evento> Eventos { get; set; }
+        public string Matricula { get; set; }
+        public string Nome { get; set; }
+        public Curso?  Curso { get; set; }
+        public ICollection<Evento>? Eventos { get; set; }
     }
 }

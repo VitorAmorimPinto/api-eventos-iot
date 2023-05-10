@@ -7,49 +7,48 @@ namespace eventos.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AlunosController : ControllerBase
+    public class CursosController : ControllerBase
     {
-        private readonly IAlunoService _service;
-
-        public AlunosController(IAlunoService service)
+        private readonly ICursoService _service;
+        public CursosController(ICursoService service) 
         {
             _service = service;
+        }
+        [HttpPost]
+        public IActionResult Create([FromBody] Curso curso) 
+        {
+            _service.Create(curso);
+            return Ok(curso);
         }
         [HttpGet]
         public IActionResult GetAll()
         {
             var listaAlunos = _service.GetAll();
-            
+
             return Ok(listaAlunos);
         }
         [HttpGet("{id}")]
-        public IActionResult Get(string id)
+        public IActionResult Get(int id)
         {
             var aluno = _service.Get(id);
-            if(aluno == null)
+            if (aluno == null)
             {
-                return NotFound("Aluno não encontrado");
+                return NotFound("Curso não encontrado");
             }
             return Ok(aluno);
         }
-        [HttpPost]
-        public  IActionResult Create([FromBody] Aluno aluno)
-        {
-            _service.Create(aluno);
-            return Ok(aluno);
-        }
         [HttpDelete("{id}")]
-        public IActionResult Delete(string id)
+        public IActionResult Delete(int id)
         {
             _service.Delete(id);
 
             return Ok();
         }
         [HttpPut]
-        public IActionResult Update([FromBody] Aluno aluno)
+        public IActionResult Update([FromBody] Curso curso)
         {
-            _service.Update(aluno);
-            return Ok(aluno);
+            _service.Update(curso);
+            return Ok(curso);
         }
     }
 }

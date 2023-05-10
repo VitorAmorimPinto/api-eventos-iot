@@ -46,7 +46,7 @@ namespace eventos.API.Migrations
                 {
                     Matricula = table.Column<string>(type: "text", nullable: false),
                     Nome = table.Column<string>(type: "text", nullable: false),
-                    CursoId = table.Column<int>(type: "integer", nullable: false)
+                    CursoId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -55,8 +55,7 @@ namespace eventos.API.Migrations
                         name: "FK_Aluno_Curso_CursoId",
                         column: x => x.CursoId,
                         principalTable: "Curso",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(

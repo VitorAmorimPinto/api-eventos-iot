@@ -1,12 +1,20 @@
-﻿using eventos.Models;
+﻿using eventos.API.Database;
+using eventos.Models;
 
 namespace eventos.API.Services
 {
     public class AlunoService : IAlunoService
     {
+        public readonly eventosContext _db;
+        public AlunoService(eventosContext db) 
+        {
+            _db = db;
+        }
         public void Create(Aluno aluno)
         {
-            throw new NotImplementedException();
+            _db.Aluno.Add(aluno);
+
+            _db.SaveChanges();
         }
 
         public void Delete(string id)
@@ -21,12 +29,13 @@ namespace eventos.API.Services
 
         public List<Aluno> GetAll()
         {
-            throw new NotImplementedException();
+            return _db.Aluno.OrderBy(a => a.Matricula).ToList();
         }
 
         public void Update(Aluno aluno)
         {
-            throw new NotImplementedException();
+            _db.Aluno.Update(aluno);
+            _db.SaveChanges();
         }
     }
 }
